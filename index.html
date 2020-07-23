@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <title>Clara Final Project - Test your memory!</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header><img src="images/header3.png" alt="header img"></header>
+
+    <div class="intro">
+        <h1>The Dungeon</h1>
+        <p>I see you are here to save the lost explorers. <br>
+        To do that, you will have to collect both halves of their wandering souls.<br>
+        Select a door to reveal the soul trapped behind it. Pair two identical souls to revive the explorer.<br>
+    </p>
+    </div>
+
+    <div class="picture_board" id="picture_board">
+        <table>
+            <tr>
+                <td><img class="front_img" id="block1_f" src="images/ddoor.png" alt="door"><img id="block1" class="back_img" src="images/characters/char1.png" alt="char1"></td>
+                <td><img class="front_img" src="images/ddoor.png" alt="door"><img id="block2" class="back_img" src="images/characters/char2.png" alt="char1"></td>
+                <td><img class="front_img" src="images/ddoor.png" alt="door"><img id="block3" class="back_img" src="images/characters/char3.png" alt="char"></td>
+                <td><img class="front_img" src="images/ddoor.png" alt="door"><img id="block4" class="back_img" src="images/characters/char4.png" alt="char"></td>
+            </tr>
+
+            <tr>
+                <td><img class="front_img" src="images/ddoor.png" alt="door"><img id="block5" class="back_img" src="images/characters/char5.png" alt="char"></td>
+                <td><img class="front_img" src="images/ddoor.png" alt="door"><img id="block6" class="back_img" src="images/characters/char6.png" alt="char"></td>
+                <td><img class="front_img" src="images/ddoor.png" alt="door"><img id="block7" class="back_img" src="images/characters/char5.png" alt="char"></td>
+                <td><img class="front_img" src="images/ddoor.png" alt="door"><img id="block8" class="back_img" src="images/characters/char6.png" alt="char"></td>
+            </tr>
+
+            <tr>
+                <td><img class="front_img" src="images/ddoor.png" alt="door"><img id="block9" class="back_img" src="images/characters/char1.png" alt="char1"></td>
+                <td><img class="front_img" src="images/ddoor.png" alt="door"><img id="block10" class="back_img" src="images/characters/char2.png" alt="char1"></td>
+                <td><img class="front_img" src="images/ddoor.png" alt="door"><img id="block11" class="back_img" src="images/characters/char3.png" alt="char"></td>
+                <td><img class="front_img" src="images/ddoor.png" alt="door"><img id="block12" class="back_img" src="images/characters/char4.png" alt="char"></td>
+            </tr>
+
+            <tr>
+                <td><img class="front_img" src="images/ddoor.png" alt="door"><img id="block13" class="back_img" src="images/characters/char5.png" alt="char"></td>
+                <td><img class="front_img" src="images/ddoor.png" alt="door"><img id="block14" class="back_img" src="images/characters/char6.png" alt="char"></td>
+                <td><img class="front_img" src="images/ddoor.png" alt="door"><img id="block15" class="back_img" src="images/characters/char5.png" alt="char"></td>
+                <td><img class="front_img" src="images/ddoor.png" alt="door"><img id="block16" class="back_img" src="images/characters/char6.png" alt="char"></td>
+            </tr>
+        </table>
+    </div>
+
+    <div class="score_div">
+            <ul>
+                <li><h3>Turns: </h3><span id="turns_out">0</span>
+                </li>
+            </ul>
+            <ul>
+                <li><h3>Souls found: </h3><span id="match_out">0</span>
+                </li>
+            </ul>
+            <ul>
+                <li><h3>Matches won: </h3><span id="won_out">0</span>
+                </li>
+            </ul>
+    </div>
+
+    <div class="buttons">
+        <button id="start_btn">Start Adventure</button>
+        <button id="end_btn" disabled>Retreat</button>
+    </div>
+
+    <div class="disclaimer">
+        <p>The 2D graphics used for the characters are created by Wulax, sourced from <a href="https://opengameart.org/content/lpc-medieval-fantasy-character-sprites">OpenGameArt.org</a></p>
+    </div>
+
+    
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
+

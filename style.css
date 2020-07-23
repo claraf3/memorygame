@@ -1,0 +1,136 @@
+html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    /* background-color: rgb(110, 78, 78); */
+    background-image: url(images/dungeon-bg3.png);
+    color: white;
+}
+
+
+header img {
+    display: block;
+    width: 100%;
+    height: 100%;    
+}
+
+button {
+    background-image: url(images/btn-bg.png);
+    /* background-color: grey; */
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    width: 155px;
+    padding: 10px 0px;
+    margin: 0 10px 0 0;
+}
+
+button:hover {
+    color: red;
+    font-weight: bold;
+    font-size: 15px;
+    width: 155px;
+    padding: 10px 0px;
+    margin: 0 10px 0 0;
+}
+
+tr td {
+    height: 150px;
+    width: 121px;
+}
+
+alert {
+    background-color: black;;
+}
+
+a:link, a:hover {
+    text-decoration: none;
+    color: white;
+}
+
+a:visited, a:active {
+    text-decoration: none;
+    color: white;
+}
+/*
+class rules-------------------- */
+
+.intro {
+    width: 800px;
+    text-align: center;
+    font-weight: bold;
+    margin-left: auto;
+    margin-right: auto;   
+}
+
+.front_img {
+    position: absolute;
+    /* visibility: hidden; */
+}
+
+.row div {
+    display: inline;
+}
+
+.picture_board {
+    width : 550px;
+    margin-left: 705px;
+    float: left;
+}
+
+.score_div {
+    background-image: url(images/scoreboard_bg.png);
+    color: black;
+    width: 300px;
+    height: 210px;
+    margin: 100px 330px 20px 0;
+    padding-top: 15px;
+    float: right;
+
+}
+
+.score_div ul {
+    margin-left: 70px;
+    padding: 0;
+}
+
+.score_div ul li {
+    display: inline-block;
+    padding-top: 10px;
+    margin: 0;
+}
+
+.score_div li span {
+    display: inline-block;
+    padding: 0 10px;
+    font-size: 20px;
+}
+
+.score_div h3 {
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+}
+
+.buttons {
+    margin-left: 1350px;
+}
+
+.disclaimer {
+    clear: both;
+    padding-right: 40px;
+}
+
+
+
+
+/*
+id rules-------------------- */
+
+#end_btn {
+    display: none;
+}
+
+
