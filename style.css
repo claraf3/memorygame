@@ -121,7 +121,9 @@ class rules-------------------- */
 .disclaimer {
     clear: both;
     width: 700px;
-    margin: 15px, auto, 0, auto;
+    padding-top: 15px
+    margin-left: auto;
+    margin-right: auto;
 }
 
 
